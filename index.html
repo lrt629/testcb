@@ -9,4 +9,32 @@
     <meta name='theme-color' content='gray'/>
     <link rel="stylesheet" href="cb.css">
 <HEAD>
+<BODY>
+<div id="wrapper">
+    <div id="header" data-nosnippet>
+        <div id="inputs" class="map-component">
+            <div class="input-line" id="prompt-container">
+                <span><input id="prompt" autocomplete="off" oninput="updatePrompt()"/></span>
+                <span id="prompt-label">Vanilla game seed</span>
+            </div>
+            <div class="input-hint" id="prompt-hint">Up to 15 ASCII characters</div>
+            <div class="input-line" id="seed-container">
+                <span><input id="seed" autocomplete="off" oninput="updateSeed()"/></span>
+                <span id="seed-label">Speedrun Mod seed</span>
+            </div>
+            <div class="input-hint" id="seed-hint">Number in range 1, 2147483647</div>
+            <div class="input-hint" id="blank-hint">Leave fields blank for random seed</div>
+            <button id="generate" onclick="createMap()">CREATE MAP</button>
+            <img id="loading-gif" src="load.gif" hidden/>
+        </div>
+        <div id="page-meta" class="map-component">
+            <div class="page-meta-line">SCP: Containment Breach v1.3.11 map</div>
+            <div class="page-meta-line">App version: v1.4.2 // 250614</div>
+            <div class="page-meta-line">Created by <a id="sooslick-link" href="https://sooslick.art/">@Sooslick</a> for speedrunning community</div>
+            <br/>
+            <div class="page-meta-line">Download game: <a id="scpcbgame-link" href="https://www.scpcbgame.com/">Official website</a></div>
+            <div class="page-meta-line">Download Speedrun Mod: <a id="mod-link" href="https://github.com/forxandknives/SCPCB-Speedrun-Mod/releases">Github link</a></div>
+        </div>
+    </div>
+<BODY>
 <HTML>
