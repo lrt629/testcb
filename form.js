@@ -8,4 +8,11 @@ function updatePrompt() {
             i--;
         }
     }
+    if (prompt.length > 15)
+        prompt = prompt.slice(0, 15);
+    promptInput.value = prompt;
+    if (prompt.length > 0)
+        document.getElementById("seed").value = generateSeedNumber(prompt);
+    else
+        document.getElementById("seed").value = "";
 }
