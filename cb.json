@@ -1,0 +1,47 @@
+
+<!doctype html>
+<HTML>
+<HEAD>
+<TITLE>404 Not Found</TITLE>
+<meta charset='utf-8' />
+<meta http-equiv='Content-Type' content='text/html' />
+<meta http-equiv='Content-Security-Policy' content='upgrade-insecure-requests' />
+<meta name='author' content='Sooslick' />
+<meta name='description' content='YOUR PRINCESS IN ANOTHER CASTLE' />
+<meta name='theme-color' content='black' />
+<link rel='stylesheet' href='/resources/css/mainPageCommons.css' type='text/css' />
+<link rel='icon' href='/resources/icons/mainPageIcon.png' type='image/x-icon' />
+<link rel='image_src' href='/resources/img/ogMain.jpg' type='image/png' />
+<meta property='og:type' content='website' />
+<meta property='og:image' content='https://sooslick.art/resources/img/og/ogMain.jpg' />
+</HEAD>
+<BODY>
+<div id='header-wrapper' class='w100'>
+<div id='header-img' class='w100 fixed'>
+<img class='w100' src='/resources/img/sooslickArtText.png'>
+</div>
+</div>
+<div id='main-panel' class='t200 pb40'>
+<a class='flicker' id='header-link-main' href='/'>MAIN PAGE</a>
+<a class='flicker' id='header-link-projects' href='/projects'>PROJECTS</a>
+<a class='flicker' id='header-link-about' href='/about'>ABOUT US</a>
+<a class='flicker' id='header-link-showcase' href='/portfolio'>PORTFOLIO</a>
+</div>
+<h1>404 NOT FOUND</h1>
+<h2>YOUR PRINCESS IN ANOTHER CASTLE</h2>
+
+<div id='ft-v2' class='pt20'>
+<div id='ft-checkout'>Check out our socials</div>
+<div id='ft-list'>
+<a href='https://twitch.tv/sooslick_art' id='Footer_Twitch'><img src='/resources/img/logo/twitch256.png'></a>
+<a href='https://www.youtube.com/@Sooslick_art' id='Footer_Youtube'><img src='/resources/img/logo/youtube256.png'></a>
+<a href='https://x.com/Sooslick_Art' id='Footer_Twitter'><img src='/resources/img/logo/twitter256.png'></a>
+<a href='https://vk.com/sooslick_art' id='Footer_Vk'><img src='/resources/img/logo/vk256.png'></a>
+</div>
+<div id='bottom-info'>
+<div id='copyrights'>&#169; 2013 - 2026 <a href='https://sooslick.art/'>Sooslick.Art Project</a></div>
+<div id='versions'><span class='app-version'>Engine build v0.4.2-260103</span>
+</div>
+</div>
+</div></BODY>
+</HTML>
